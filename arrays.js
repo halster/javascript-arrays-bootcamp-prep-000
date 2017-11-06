@@ -33,6 +33,7 @@ function destructivelyRemoveElementFromEndOfArray(array){
   array.pop()
   return array
 }
-function removeElementFromEndOfArray(array)
+function removeElementFromEndOfArray(array){
 var newArray=array.slice(0,length.array-1)
 return newArray
+}
